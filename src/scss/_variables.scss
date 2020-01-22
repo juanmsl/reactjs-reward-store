@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,600');
+
+$font-family: Poppins, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$font-size: 0.9rem;
+$font-weight: ligther;
+
+$title-font-family: $font-family;
+$title-font-weight: bolder;
+
+$g: 1em;
+$m: 1em;
+$p: 1em;
+
+$gr: 1rem;
+$mr: 1rem;
+$pr: 1rem;
+
+$breakpoints: (
+  tablet: 750px,
+  desktop: 1200px,
+  large: 1400px,
+  extra: 1824px
+);
+
+$color-palette-primary: #bd9c64;
+$color-palette-secondary: #969FAA;
+$color-palette-third: #365E80;
+
+$color-gray-dark: #333333;
+$color-gray: #555555;
+$color-gray-light: #DDDDDD;
+
+$color-status-active: #13CE66;
+$color-status-warning: #FFBA5C;
+$color-status-alert: #F95F62;
+$color-status-disabled: #DCDCDC;
+$color-status-info: #0989ee;

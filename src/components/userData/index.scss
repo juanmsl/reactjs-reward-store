@@ -1,0 +1,19 @@
+@import "scss/styles";
+
+.aca-users {
+  background: $color-palette-third;
+  height: 100%;
+  overflow: auto;
+  display: grid;
+  padding: $p;
+  grid-template-rows: auto 1fr;
+  color: white;
+
+  .aca-users-title {
+    display: grid;
+    grid-gap: $g;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+}

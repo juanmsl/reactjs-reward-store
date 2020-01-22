@@ -1,0 +1,48 @@
+@import "scss/styles";
+
+.aca-product-history-card {
+  animation: fadeIn 0.5s ease-out;
+  border: 1px solid transparent;
+  border-bottom: 1px solid $color-palette-primary;
+  display: grid;
+  grid-template-areas: 'foto name' 'foto body';
+  grid-template-columns: auto 1fr;
+  font-size: 0.8em;
+  transition: all 0.15s ease-out;
+  padding: $p / 5;
+  background: white;
+
+  &:hover {
+    transform: scale(1.05);
+    border: 1px solid $color-palette-primary;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .aca-product-image {
+    width: 50px;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    padding: $p / 10;
+    grid-area: foto;
+  }
+
+  .aca-product-name {
+    margin: 0;
+    grid-area: name;
+    padding: $p / 2 $p / 2 0;
+  }
+
+  .aca-product-body {
+    grid-area: body;
+    font-size: 0.8em;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    grid-gap: $g;
+    padding: 0 $p / 2;
+  }
+}

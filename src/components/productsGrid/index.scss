@@ -1,0 +1,8 @@
+@import "scss/styles";
+
+.aca-products-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 300px));
+  grid-gap: $g;
+  align-content: start;
+}

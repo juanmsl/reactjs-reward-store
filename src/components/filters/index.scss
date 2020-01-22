@@ -1,0 +1,19 @@
+@import 'scss/styles';
+
+.aca-filterbar {
+  font-size: 0.8em;
+  display: grid;
+  grid-gap: $g;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 250px;
+
+  .aca-filterbar_input {
+    padding: $p;
+    outline: 0;
+    border: 1px solid $color-gray-light;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    background: white;
+  }
+}

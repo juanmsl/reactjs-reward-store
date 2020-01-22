@@ -1,0 +1,20 @@
+@import "scss/styles";
+
+.aca-accordion {
+  margin-top: 3px;
+
+  .aca-accordion_name {
+    background: white;
+    padding: $p;
+    margin: 0;
+    border: 1px solid $color-palette-primary;
+    cursor: pointer;
+  }
+
+  .aca-accordion_body {
+    font-size: 0.95em;
+    padding: 0 4px;
+    overflow: hidden;
+    position: relative;
+  }
+}

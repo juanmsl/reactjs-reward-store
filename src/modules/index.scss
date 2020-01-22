@@ -1,0 +1,27 @@
+@import "scss/styles";
+
+.aca-home {
+  display: grid;
+  grid-template-areas: 'user filterbar' 'user products';
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  padding: $p;
+  grid-gap: $g;
+
+  .aca-home-user {
+    grid-area: user;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .aca-home-filterbar {
+    grid-area: filterbar;
+  }
+
+  .aca-home-products {
+    grid-area: products;
+    height: 100%;
+    overflow: auto;
+  }
+}

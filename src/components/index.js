@@ -1,0 +1,10 @@
+export {default as ProductCard} from './productCard';
+export {default as ProductHistoryCard} from './productHistoryCard';
+export {default as ProductsGrid} from './productsGrid';
+export {default as UserData} from './userData';
+export {default as RedeemHistory} from './redeemHistory';
+export {default as CoinImage} from './coinImage';
+export {default as Accordion} from './accordion';
+export {default as Filters} from './filters';
+export {default as ModalAddPoints} from './modalAddPoints';
+export {default as ModalRedeemProducts} from './modalRedeemProducts';

@@ -1,0 +1,57 @@
+@import "scss/styles";
+
+.aca-modal-message {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.aca-modal-options {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: $g;
+  grid-auto-columns: 1fr;
+  font-size: 0.9em;
+
+  .aca-modal-option {
+    position: relative;
+    width: 100%;
+
+    label {
+      border: 1px solid;
+      color: $color-gray;
+      padding: $p $p * 2;
+      display: block;
+      text-align: center;
+    }
+
+    input {
+      z-index: 10;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    input:checked ~ label {
+      color: $color-palette-primary;
+      font-weight: bold;
+      background: lighten($color-palette-primary, 35);
+      border-width: 2px;
+    }
+  }
+
+}
+
+.aca-modal-button {
+  border: 2px solid;
+  color: $color-palette-primary;
+  padding: $p $p * 2;
+  display: block;
+  text-align: center;
+  margin: $m auto;
+  font-weight: bold;
+  background: lighten($color-palette-primary, 35);
+}
+
