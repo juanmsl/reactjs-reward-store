@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactjs-reward-store/static/css/main.3d077b9a.chunk.css",
+    "main.js": "/reactjs-reward-store/static/js/main.5fa71b3d.chunk.js",
+    "main.js.map": "/reactjs-reward-store/static/js/main.5fa71b3d.chunk.js.map",
+    "runtime-main.js": "/reactjs-reward-store/static/js/runtime-main.02522bdc.js",
+    "runtime-main.js.map": "/reactjs-reward-store/static/js/runtime-main.02522bdc.js.map",
+    "static/css/2.4364cc03.chunk.css": "/reactjs-reward-store/static/css/2.4364cc03.chunk.css",
+    "static/js/2.1e5d7ed7.chunk.js": "/reactjs-reward-store/static/js/2.1e5d7ed7.chunk.js",
+    "static/js/2.1e5d7ed7.chunk.js.map": "/reactjs-reward-store/static/js/2.1e5d7ed7.chunk.js.map",
+    "index.html": "/reactjs-reward-store/index.html",
+    "precache-manifest.e9ee5a4a02842bd5ee1c98291ceb0640.js": "/reactjs-reward-store/precache-manifest.e9ee5a4a02842bd5ee1c98291ceb0640.js",
+    "service-worker.js": "/reactjs-reward-store/service-worker.js",
+    "static/css/2.4364cc03.chunk.css.map": "/reactjs-reward-store/static/css/2.4364cc03.chunk.css.map",
+    "static/css/main.3d077b9a.chunk.css.map": "/reactjs-reward-store/static/css/main.3d077b9a.chunk.css.map",
+    "static/js/2.1e5d7ed7.chunk.js.LICENSE": "/reactjs-reward-store/static/js/2.1e5d7ed7.chunk.js.LICENSE",
+    "static/media/coin.gif": "/reactjs-reward-store/static/media/coin.41527a03.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02522bdc.js",
+    "static/css/2.4364cc03.chunk.css",
+    "static/js/2.1e5d7ed7.chunk.js",
+    "static/css/main.3d077b9a.chunk.css",
+    "static/js/main.5fa71b3d.chunk.js"
+  ]
+}
